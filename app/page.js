@@ -6,7 +6,6 @@ import {
   featuresData,
   howItWorksData,
   statsData,
-  testimonialsData,
 } from "@/data/landing";
 import HeroSection from "@/components/hero";
 import Link from "next/link";
@@ -71,7 +70,7 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Testimonials Section */}
+      {/* Testimonials Section
       <section id="testimonials" className="py-20">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-16">
@@ -102,7 +101,7 @@ const LandingPage = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-20 bg-blue-600">
